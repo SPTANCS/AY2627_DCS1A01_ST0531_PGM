@@ -1,9 +1,11 @@
+console.clear();
 let number1 = 5;
 let number2 = 9;
 
-// console.log(number1);
-// console.log("number1");
-// console.log("number1 is " + number1);
+console.log(number1);
+console.log("number1");
+console.log("number1 is " + number1);
+
 console.log("number1 is" , number1);
 console.log();
 console.log("number2 is " + number2);

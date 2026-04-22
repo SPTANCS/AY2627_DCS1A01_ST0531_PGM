@@ -1,5 +1,5 @@
 console.clear();
-console.log("In topic02");
+console.log("In topic01");
 
 let x = 5;
 

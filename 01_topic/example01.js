@@ -1,2 +1,2 @@
 console.clear();
-console.log("Welcome to FOP");
+console.log("Welcome to PGM");
