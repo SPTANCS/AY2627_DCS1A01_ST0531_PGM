@@ -1,4 +1,10 @@
-function makeMessage(name, yearOfBirth, currentYear) {}
+function makeMessage(name, yearOfBirth, currentYear) {
+  const age = currentYear - yearOfBirth;
+
+  // return name + ' (' + age + ')';
+
+  return `${name} (${age})`;
+}
 
 module.exports = makeMessage;
 

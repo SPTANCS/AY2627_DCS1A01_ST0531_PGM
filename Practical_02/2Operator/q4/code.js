@@ -1,5 +1,5 @@
 function greetings(name) {
-    const message = 'Hello, ';
+    let message = 'Hello, ';
     message = message + name;
     return message;
 }

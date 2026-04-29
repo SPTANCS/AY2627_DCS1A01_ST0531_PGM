@@ -1,5 +1,5 @@
 function add(x, y) {
-    x + y;
+    return x + y;
 }
 
 function multiplyBy3(x) {

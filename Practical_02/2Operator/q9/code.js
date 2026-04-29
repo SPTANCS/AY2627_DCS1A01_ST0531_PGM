@@ -1,4 +1,10 @@
-function aSquareMinusBSquare(a, b) {}
+function aSquareMinusBSquare(a, b) {
+
+  const aSquare = a ** 2;
+  const bSquare = b ** 2;
+
+  return aSquare - bSquare;
+}
 
 module.exports = aSquareMinusBSquare;
 

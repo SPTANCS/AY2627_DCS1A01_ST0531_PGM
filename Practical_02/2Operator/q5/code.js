@@ -1,6 +1,6 @@
 function displayName(firstName, lastName) {
-    const full name = firstName + ' ' + lastName;
-    return full name;
+    const fullName = firstName + ' ' + lastName;
+    return fullName;
 }
 
 module.exports = displayName;

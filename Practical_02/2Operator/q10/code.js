@@ -1,8 +1,14 @@
 function aSquareMinusBSquare(a, b) {
-    // You can copy your solution from q9.
+  const aSquare = a ** 2;
+  const bSquare = b ** 2;
+
+  return aSquare - bSquare;
 }
 
-function multipleSquareMinusSquare(a, b, c, d) {}
+function multipleSquareMinusSquare(a, b, c, d) {
+
+    return aSquareMinusBSquare(aSquareMinusBSquare(a, b), aSquareMinusBSquare (c, d));
+}
 
 module.exports = multipleSquareMinusSquare;
 
